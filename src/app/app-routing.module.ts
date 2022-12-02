@@ -5,7 +5,11 @@ import { HomeComponent } from './Pages/home/home.component';
 const routes: Routes = [
   {
     path:'',component:HomeComponent
-  }
+
+  },
+  { path: 'Home', component: HomeComponent },
+  { path: '', redirectTo: '/Home', pathMatch: 'full' },
+  { path: '**', component: HomeComponent },
 ];
 
 @NgModule({
