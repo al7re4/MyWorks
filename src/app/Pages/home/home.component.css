@@ -1,0 +1,32 @@
+.header
+{
+  padding: 3rem 5% 2rem;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(-225deg, #3a4c81 0%, #504cc5 48%, #5d6fe3 100%);
+  color: #fff;
+}
+.profile
+{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border-color: whitesmoke;
+  -moz-box-shadow: 0px 6px 5px #586aa3;
+  -webkit-box-shadow: 0px 6px 5px #586aa3;
+  box-shadow: 0px 6px 5px #586aa3;
+  -moz-border-radius:190px;
+  -webkit-border-radius:190px;
+
+
+}
+.wp
+{
+  width:25px;
+  height: 25px;
+
+}
+p,code
+{
+  font-size: 18px;
+}
